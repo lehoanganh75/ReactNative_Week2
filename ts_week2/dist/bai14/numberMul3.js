@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.numberMul3 = numberMul3;
 async function numberMul3(num) {
     await new Promise(resolve => {
         setTimeout(resolve, 1000);

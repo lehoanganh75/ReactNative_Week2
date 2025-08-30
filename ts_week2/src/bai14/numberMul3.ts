@@ -1,4 +1,4 @@
-async function numberMul3(num:number): Promise<number>{
+export async function numberMul3(num:number): Promise<number>{
     await new Promise(resolve => {
         setTimeout(resolve, 1000);}
     );
